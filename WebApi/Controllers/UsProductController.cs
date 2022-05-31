@@ -23,5 +23,14 @@ namespace WebApi.Controllers
             var result = _usProductService.GetAll();
             return Ok(result);
         }
+
+        [HttpPost("getCustomUsProducts")]
+        public IActionResult GetCustomUsProducts(int customerId)
+        {
+            var result = _usProductService.GetAllCustomeProducts(customerId);
+            return Ok(result);
+        }
+
+
     }
 }

@@ -26,5 +26,13 @@ namespace WebApi.Controllers
             var result =_customerInfoService.Add(customerInfoDto);
             return Ok(result);
         }
+
+        [HttpPost("saveAndReturnCustomProduct")]
+        public IActionResult SaveAndReturnCustomProduct(CustomerInfoDto entity)
+        {
+            var result = _customerInfoService.SaveAndReturnCustomProduct(entity);
+            return Ok(result);
+        }
+
     }
 }

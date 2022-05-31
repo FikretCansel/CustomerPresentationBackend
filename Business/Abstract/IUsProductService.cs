@@ -11,5 +11,8 @@ namespace Business.Abstract
     public interface IUsProductService
     {
         DataResult<List<UsProduct>> GetAll();
+
+        DataResult<List<UsProduct>> GetAllCustomeProducts(int customerId);
+
     }
 }

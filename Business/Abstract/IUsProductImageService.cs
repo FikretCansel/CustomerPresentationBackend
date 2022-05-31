@@ -17,6 +17,6 @@ namespace Business.Abstract
         Result Add(IFormFile file, UsProductImage usProductImage);
         Result Update(IFormFile file, UsProductImage usProductImage);
         Result Delete(UsProductImage usProductImage);
-        DataResult<List<UsProductImage>> Get(int usProductId);
+        DataResult<List<UsProductImage>> GetAllByUsProductId(int usProductId);
     }
 }

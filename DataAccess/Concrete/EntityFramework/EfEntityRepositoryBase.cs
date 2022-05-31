@@ -14,7 +14,7 @@ namespace DataAccess.Concrete.EntityFramework
         where TEntity : class, IEntity, new()
         where TContext : DbContext, new()
     {
-        public void Add(TEntity entity)
+        public TEntity Add(TEntity entity)
         {
             //IDispossable pattern implementation of c#
             using (TContext context = new TContext())
@@ -22,6 +22,8 @@ namespace DataAccess.Concrete.EntityFramework
                 var addedEntity = context.Entry(entity);
                 addedEntity.State = EntityState.Added;
                 context.SaveChanges();
+
+                return entity;
             }
         }
 

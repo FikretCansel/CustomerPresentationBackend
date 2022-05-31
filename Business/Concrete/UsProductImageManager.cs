@@ -35,9 +35,9 @@ namespace Business.Concrete
             return new Result { isSuccess = true };
         }
 
-        public DataResult<List<UsProductImage>> Get(int usProductId)
+        public DataResult<List<UsProductImage>> GetAllByUsProductId(int usProductId)
         {
-            var usProductImage=_usProductImageDal.GetAll(x=>x.Id==usProductId);
+            var usProductImage=_usProductImageDal.GetAll(x=>x.UsProductId==usProductId);
             return new DataResult<List<UsProductImage>> { isSuccess = true,Data=usProductImage };
         }
 

@@ -66,10 +66,10 @@ namespace Business.Utilities.FileHelper
             }
             catch (Exception exception)
             {
-                return new Result { isSuccess = false, Message = "Hata" };
+                return new Result();
             }
 
-            return new Result { isSuccess=true};
+            return new Result { isSuccess=true,Message= "sss" };
         }
 
         public static (string newPath, string Path2) newPath(IFormFile file)
@@ -90,8 +90,6 @@ namespace Business.Utilities.FileHelper
 
             return (result, $"\\Images\\{creatingUniqueFilename}");
         }
-
-
 
     }
 }

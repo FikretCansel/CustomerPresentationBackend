@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--
-https://go.microsoft.com/fwlink/?LinkID=208121. 
+https://go.microsoft.com/fwlink/?LinkID=208121.
 -->
-<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project>
   <PropertyGroup>
     <_PublishTargetUrl>C:\Users\fikret\Desktop\JetNet\Project1-publish</_PublishTargetUrl>
-    <History>True|2022-05-24T10:27:40.3893170Z;True|2022-05-24T13:22:12.3001345+03:00;True|2022-05-24T13:01:04.5541575+03:00;True|2022-05-24T12:52:05.4953451+03:00;True|2022-05-24T12:45:23.8989254+03:00;True|2022-05-24T12:39:23.0811025+03:00;True|2022-05-24T12:32:57.5479550+03:00;True|2022-05-24T12:08:29.1498189+03:00;True|2022-05-17T12:01:08.4613560+03:00;True|2022-05-17T11:55:53.1923317+03:00;True|2022-05-17T11:24:48.6303955+03:00;True|2022-05-17T10:49:40.4653659+03:00;</History>
+    <History>True|2022-05-31T11:06:13.5208669Z;True|2022-05-31T14:01:51.3883764+03:00;True|2022-05-31T10:35:58.6092381+03:00;True|2022-05-30T18:12:17.0260467+03:00;True|2022-05-30T17:10:17.2897879+03:00;True|2022-05-30T17:04:39.6721181+03:00;</History>
   </PropertyGroup>
 </Project>

@@ -12,5 +12,9 @@ namespace Business.Abstract
     public interface ICustomerInfoService
     {
         Result Add(CustomerInfoDto entity);
+
+        DataResult<List<UsProduct>> SaveAndReturnCustomProduct(CustomerInfoDto entity);
+
+
     }
 }

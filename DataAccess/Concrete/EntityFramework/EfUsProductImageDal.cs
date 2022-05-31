@@ -10,5 +10,6 @@ namespace DataAccess.Concrete.EntityFramework
 {
     public class EfUsProductImageDal: EfEntityRepositoryBase<UsProductImage, EfCustomerUIContext>, IUsProductImageDal
     {
+
     }
 }

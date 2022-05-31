@@ -9,5 +9,7 @@ namespace DataAccess.Abstract
 {
     public interface IUsProductDal: IEntityRepositoryBase<UsProduct>
     {
+        List<UsProduct> GetAllCustomeProducts(int customerId);
+
     }
 }

@@ -9,4 +9,4 @@ C:\Users\fikret\source\repos\CustomerPresentation\Entities\obj\Debug\net5.0\Enti
 C:\Users\fikret\source\repos\CustomerPresentation\Entities\obj\Debug\net5.0\Entities.dll
 C:\Users\fikret\source\repos\CustomerPresentation\Entities\obj\Debug\net5.0\ref\Entities.dll
 C:\Users\fikret\source\repos\CustomerPresentation\Entities\obj\Debug\net5.0\Entities.pdb
-C:\Users\fikret\source\repos\CustomerPresentation\Entities\bin\Debug\net5.0\ref\Entities.dll
+C:\Users\fikret\source\repos\CustomerPresentation\Entities\obj\Debug\net5.0\refint\Entities.dll

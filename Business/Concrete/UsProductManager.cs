@@ -22,5 +22,10 @@ namespace Business.Concrete
         {
             return new DataResult<List<UsProduct>> { isSuccess = true, Message = "Işlem Başarılı", Data = _productDal.GetAll() };
         }
+
+        public DataResult<List<UsProduct>> GetAllCustomeProducts(int customerId)
+        {
+            return new DataResult<List<UsProduct>> { isSuccess = true, Message = "Işlem Başarılı", Data = _productDal.GetAllCustomeProducts(customerId) };
+        }
     }
 }
