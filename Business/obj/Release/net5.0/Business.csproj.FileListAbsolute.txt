@@ -14,4 +14,4 @@ C:\Users\fikret\source\repos\CustomerPresentation\Business\obj\Release\net5.0\Bu
 C:\Users\fikret\source\repos\CustomerPresentation\Business\obj\Release\net5.0\Business.dll
 C:\Users\fikret\source\repos\CustomerPresentation\Business\obj\Release\net5.0\ref\Business.dll
 C:\Users\fikret\source\repos\CustomerPresentation\Business\obj\Release\net5.0\Business.pdb
-C:\Users\fikret\source\repos\CustomerPresentation\Business\obj\Release\net5.0\refint\Business.dll
+C:\Users\fikret\source\repos\CustomerPresentation\Business\bin\Release\net5.0\ref\Business.dll

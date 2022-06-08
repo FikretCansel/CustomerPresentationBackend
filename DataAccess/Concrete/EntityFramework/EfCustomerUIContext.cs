@@ -14,8 +14,10 @@ namespace DataAccess.Concrete.EntityFramework
         {
             //optionsBuilder.UseSqlServer(@"Server=(localdb)\MSSQLLocalDB;Database=CustomerPresentation;Trusted_Connection=true");
             //optionsBuilder.UseSqlServer(@"Server=178.18.196.230;Database=CustomerPresentation;User Id=BtAdmin;Password=Bt#2019;");
-            optionsBuilder.UseSqlServer(@"Server=6488-15259;Database=CustomerPresentation;User Id=BtAdmin;Password=Bt#2019;");
-
+            //optionsBuilder.UseSqlServer(@"Server=6488-15259;Database=CustomerPresentation;User Id=BtAdmin;Password=Bt#2019;");
+            //optionsBuilder.UseSqlServer(@"Server=185.86.246.70;Database=CustomerPresentation;User Id=BtAdmin;Password=Bt#2022;");
+            optionsBuilder.UseSqlServer(@"Server=WIN-G73KDTUFGJE;Database=CustomerPresentation;User Id=BtAdmin;Password=Bt#2022;");
+            //optionsBuilder.UseSqlServer(@"Server=WIN-G73KDTUFGJE;Database=CustomerPresentation;User Id=BtAdmin;Password=Bt#2022;");
         }
         public DbSet<CustomerInfo> CustomerInfos { get; set; }
 

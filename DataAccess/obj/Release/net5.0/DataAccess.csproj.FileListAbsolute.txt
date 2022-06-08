@@ -12,4 +12,4 @@ C:\Users\fikret\source\repos\CustomerPresentation\DataAccess\obj\Release\net5.0\
 C:\Users\fikret\source\repos\CustomerPresentation\DataAccess\obj\Release\net5.0\DataAccess.dll
 C:\Users\fikret\source\repos\CustomerPresentation\DataAccess\obj\Release\net5.0\ref\DataAccess.dll
 C:\Users\fikret\source\repos\CustomerPresentation\DataAccess\obj\Release\net5.0\DataAccess.pdb
-C:\Users\fikret\source\repos\CustomerPresentation\DataAccess\obj\Release\net5.0\refint\DataAccess.dll
+C:\Users\fikret\source\repos\CustomerPresentation\DataAccess\bin\Release\net5.0\ref\DataAccess.dll

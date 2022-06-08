@@ -94,4 +94,5 @@ C:\Users\fikret\source\repos\CustomerPresentation\WebApi\bin\Debug\net5.0\zh-Han
 C:\Users\fikret\source\repos\CustomerPresentation\WebApi\bin\Debug\net5.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
 C:\Users\fikret\source\repos\CustomerPresentation\WebApi\bin\Debug\net5.0\zh-Hant\Microsoft.TestPlatform.CoreUtilities.resources.dll
 C:\Users\fikret\source\repos\CustomerPresentation\WebApi\bin\Debug\net5.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
-C:\Users\fikret\source\repos\CustomerPresentation\WebApi\obj\Debug\net5.0\refint\WebApi.dll
+C:\Users\fikret\source\repos\CustomerPresentation\WebApi\bin\Debug\net5.0\ref\WebApi.dll
+C:\Users\fikret\source\repos\CustomerPresentation\WebApi\obj\Debug\net5.0\staticwebassets\WebApi.StaticWebAssets.xml
